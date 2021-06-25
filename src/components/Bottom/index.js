@@ -11,7 +11,7 @@ const Button = ({text , callback}) => (
     </Wrapper>
 );
 
-Button.prototype = {
+Button.propTypes = {
     text: PropTypes.string,
     callback: PropTypes.func
 }

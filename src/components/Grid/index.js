@@ -11,7 +11,7 @@ const Grid = ({header, children})=>(
     </Wrapper>
 );
 
-Grid.prototype = {
+Grid.propTypes = {
     header: PropTypes.string
 }
 export default Grid;
