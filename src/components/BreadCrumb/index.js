@@ -16,7 +16,7 @@ const BreadCrumb = ({ movieTitle }) =>(
         </Content>
     </Wrapper>
 );
-BreadCrumb.prototype = {
+BreadCrumb.propTypes = {
     movieTitle: PropTypes.string
 }
 

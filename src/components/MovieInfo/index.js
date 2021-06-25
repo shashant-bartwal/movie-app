@@ -44,7 +44,7 @@ const MovieInfo = ({movie}) =>{
     </Wrapper>
 )};
 
-MovieInfo.prototype = {
+MovieInfo.propTypes = {
     movie: PropTypes.object
 }
 
